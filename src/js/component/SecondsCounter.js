@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import PropTypes from "prop-types";
 
 export function SecondsCounter() {
 	const [seconds, setSeconds] = useState(0);
@@ -34,6 +33,3 @@ export function SecondsCounter() {
 		</div>
 	);
 }
-// SecondsCounter.propTypes = {
-// 	digitOne: PropTypes.number
-// };
